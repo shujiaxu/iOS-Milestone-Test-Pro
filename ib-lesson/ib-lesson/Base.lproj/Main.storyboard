@@ -24,8 +24,8 @@
                                     <action selector="handleBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ySs-Ym-5hD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4q-Lf-cH4">
-                                <rect key="frame" x="170" y="278.33333333333331" width="152" height="26.333333333333332"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4q-Lf-cH4">
+                                <rect key="frame" x="170" y="278.33333333333331" width="52" height="26.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -35,6 +35,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="jS6-Yw-95F" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="Cto-13-Vb4"/>
+                            <constraint firstItem="H4q-Lf-cH4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MTZ-dm-sp0"/>
                             <constraint firstItem="jS6-Yw-95F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cfa-1q-EC1"/>
                             <constraint firstItem="jS6-Yw-95F" firstAttribute="top" secondItem="H4q-Lf-cH4" secondAttribute="bottom" constant="200" id="h94-Zm-UaA"/>
                             <constraint firstItem="H4q-Lf-cH4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="iDu-Cm-fe9"/>
