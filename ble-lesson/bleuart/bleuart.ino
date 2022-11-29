@@ -108,7 +108,7 @@ void loop()
   while (BLEisConnected)
   {
     // Delay to wait for enough input, since we have a limited transmission buffer
-    delay(500);
+    delay(50);
 
     char buf[64];
 
@@ -116,7 +116,7 @@ void loop()
     int num = analogRead(A0);
 
     //
-    String value = String(num);
+    String value = String(num); // value = "1313,31331"
 
     value.toCharArray(buf, 64);
 
